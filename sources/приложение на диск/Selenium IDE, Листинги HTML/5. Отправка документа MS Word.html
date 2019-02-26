@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://yandex.ru/" />
+<title>5. Отправка документа MS Word</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">5. Отправка документа MS Word</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>https://passport.yandex.ru/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//div[@class=&quot;domik-field&quot;]/input[@id=&quot;login&quot;])</td>
+	<td>at21.at21</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//div[@class=&quot;domik-field&quot;]/input[@id=&quot;passwd&quot;])</td>
+	<td>a.t2_1.21</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//div[@class=&quot;domik-row&quot;]/div/button[@type=&quot;submit&quot;])</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//*[contains(text(), &quot;Почта&quot;)])</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//*[contains(text(), &quot;Написать&quot;)])</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>4000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//img[@title=&quot;Добавить&quot;])</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//span[@class=&quot;abook-entry-name-content&quot;])</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>1000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//div[@class=&quot;abook-popup-footer nb-with-l-left-gap nb-with-xs-bottom-gap js-abook-popup-footer&quot;]/button)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>700</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@name=&quot;att&quot;])</td>
+	<td>C:\Selenium\document.docx</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>4000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@name=&quot;subj&quot;])</td>
+	<td>Отправка документа MS Word</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//textarea[@id=&quot;compose-send&quot;])</td>
+	<td>Отправка документа MS Word</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//button[@id=&quot;compose-submit&quot;])</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>4000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>xpath=(//div[@class=&quot;b-done-title&quot;])</td>
+	<td>Письмо успешно отправлено.</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//a[contains(text(), &quot;Входящие&quot;)])</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>7000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//a[@data-metric=&quot;Меню сервисов:Выход&quot;])</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>7000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>https://passport.yandex.ru/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForPageToLoad</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//div[@class=&quot;domik-field&quot;]/input[@id=&quot;login&quot;])</td>
+	<td>at22.at22</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//div[@class=&quot;domik-field&quot;]/input[@id=&quot;passwd&quot;])</td>
+	<td>a.t2_2.22</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//div[@class=&quot;domik-row&quot;]/div/button[@type=&quot;submit&quot;])</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//*[contains(text(), &quot;Почта&quot;)])</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>3000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//*[contains(text(), &quot;Отправка документа MS Word&quot;)])</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>700</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>at21.at21@yandex.ru</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>700</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>document.docx</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//a[contains(text(), &quot;Входящие&quot;)])</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>7000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//input[@class=&quot;b-messages__message__checkbox__input&quot;])</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//*[@title=&quot;Удалить (Delete)&quot;])</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>700</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>xpath=(//a[@data-metric=&quot;Меню сервисов:Выход&quot;])</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

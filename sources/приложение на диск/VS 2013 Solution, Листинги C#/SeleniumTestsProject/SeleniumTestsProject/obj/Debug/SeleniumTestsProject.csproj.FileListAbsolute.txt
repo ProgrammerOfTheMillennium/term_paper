@@ -1,0 +1,11 @@
+C:\Users\LBM_Laptop\documents\visual studio 2013\Projects\SeleniumTestsProject\SeleniumTestsProject\bin\Debug\SeleniumTestsProject.dll
+C:\Users\LBM_Laptop\documents\visual studio 2013\Projects\SeleniumTestsProject\SeleniumTestsProject\bin\Debug\SeleniumTestsProject.pdb
+C:\Users\LBM_Laptop\documents\visual studio 2013\Projects\SeleniumTestsProject\SeleniumTestsProject\bin\Debug\nunit.framework.dll
+C:\Users\LBM_Laptop\documents\visual studio 2013\Projects\SeleniumTestsProject\SeleniumTestsProject\bin\Debug\ThoughtWorks.Selenium.Core.dll
+C:\Users\LBM_Laptop\documents\visual studio 2013\Projects\SeleniumTestsProject\SeleniumTestsProject\bin\Debug\WebDriver.dll
+C:\Users\LBM_Laptop\documents\visual studio 2013\Projects\SeleniumTestsProject\SeleniumTestsProject\bin\Debug\nunit.framework.xml
+C:\Users\LBM_Laptop\documents\visual studio 2013\Projects\SeleniumTestsProject\SeleniumTestsProject\bin\Debug\ThoughtWorks.Selenium.Core.xml
+C:\Users\LBM_Laptop\documents\visual studio 2013\Projects\SeleniumTestsProject\SeleniumTestsProject\bin\Debug\WebDriver.xml
+C:\Users\LBM_Laptop\documents\visual studio 2013\Projects\SeleniumTestsProject\SeleniumTestsProject\obj\Debug\SeleniumTestsProject.csprojResolveAssemblyReference.cache
+C:\Users\LBM_Laptop\documents\visual studio 2013\Projects\SeleniumTestsProject\SeleniumTestsProject\obj\Debug\SeleniumTestsProject.dll
+C:\Users\LBM_Laptop\documents\visual studio 2013\Projects\SeleniumTestsProject\SeleniumTestsProject\obj\Debug\SeleniumTestsProject.pdb
