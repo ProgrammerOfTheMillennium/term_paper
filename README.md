@@ -8,7 +8,7 @@ Test cases(E2E tests):
 1. Login/logoff.
 2. Sending the letter.
 
-Test cases 2 or 3 users.
+Test cases 2 or 3 users:
 3. Check the letter arrived.
 4. Resending the letter for another user.
 5. Sending the letter with attached doc file.
